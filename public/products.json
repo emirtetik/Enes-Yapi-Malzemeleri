@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "title": "Ürün 1",
+    "description": "Bu ürün harika bir özelliklere sahiptir.",
+    "image": "https://example.com/urun1.jpg",
+    "date": "25-07-2023"
+  },
+  {
+    "id": 2,
+    "title": "Ürün 2",
+    "description": "Bu ürün mükemmel performansa sahiptir.",
+    "image": "https://example.com/urun2.jpg",
+    "date": "25-07-2023"
+  },
+  {
+    "id": 3,
+    "title": "Ürün 3",
+    "description": "Bu ürün şık ve kullanışlıdır.",
+    "image": "https://example.com/urun3.jpg",
+    "date": "25-07-2023"
+  },
+  {
+    "id": 4,
+    "title": "Ürün 4",
+    "description": "Bu ürün uzun ömürlüdür ve dayanıklıdır.",
+    "image": "https://example.com/urun4.jpg",
+    "date": "25-07-2023"
+  },
+  {
+    "id": 5,
+    "title": "Ürün 5",
+    "description": "Bu ürün kullanıcı dostudur ve kolay kurulum sağlar.",
+    "image": "https://example.com/urun5.jpg",
+    "date": "25-07-2023"
+  },
+  {
+    "id": 6,
+    "title": "Ürün 6",
+    "description": "Bu ürün çevre dostudur ve geri dönüştürülebilir malzemelerden yapılmıştır.",
+    "image": "https://example.com/urun6.jpg",
+    "date": "25-07-2023"
+  },
+  {
+    "id": 7,
+    "title": "Ürün 7",
+    "description": "Bu ürün geniş depolama alanına sahiptir.",
+    "image": "https://example.com/urun7.jpg",
+    "date": "25-07-2023"
+  },
+  {
+    "id": 8,
+    "title": "Ürün 8",
+    "description": "Bu ürün modern tasarıma sahip ve hafiftir.",
+    "image": "https://example.com/urun8.jpg",
+    "date": "25-07-2023"
+  },
+  {
+    "id": 9,
+    "title": "Ürün 9",
+    "description": "Bu ürün yüksek kalite malzemelerden üretilmiştir.",
+    "image": "https://example.com/urun9.jpg",
+    "date": "25-07-2023"
+  },
+  {
+    "id": 10,
+    "title": "Ürün 10",
+    "description": "Bu ürün uygun fiyatlı ve ekonomiktir.",
+    "image": "https://example.com/urun10.jpg",
+    "date": "25-07-2023"
+  }
+]

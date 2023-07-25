@@ -1,8 +1,9 @@
+'use client'
+import Footer from './components/Layout/Footer'
+import Header from './components/Layout/Header'
+import Providers from "./providers"
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -15,8 +16,14 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="tr" suppressHydrationWarning>
+      <body>
+        <Providers>
+        <Header />
+           <main className='max-w-6xl px-5 mx-auto'>{children}</main>
+        <Footer/>
+        </Providers>
+        </body>
     </html>
   )
 }
