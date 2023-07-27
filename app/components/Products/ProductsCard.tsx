@@ -6,6 +6,7 @@ import Loading from '../Loading/Loading';
 import Error from '../Error/Error';
 import Image from 'next/image';
 import styles from "../../styles/ProductsCard.module.css"
+
 const productsUrl = process.env.NEXT_PUBLIC_PRODUCTS_URL || "";
 
 const ProductsCard = () => {
