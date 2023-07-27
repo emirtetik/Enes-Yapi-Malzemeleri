@@ -5,8 +5,9 @@ const Footer = () => {
     <footer className="text-gray-600 body-font">
   <div className="container px-5 py-24 mx-auto border-t border-gray-800">
     <div className="flex flex-wrap order-first text-center md:text-left">
-      <div className="w-full px-4 lg:w-1/4 md:w-1/2">
-        <h2 className="mb-3 text-sm font-medium tracking-widest text-gray-900 title-font">CATEGORIES</h2>
+      
+      <div className="w-full px-4 lg:w-1/3 md:w-1/2">
+        <h2 className="mb-3 text-sm font-medium tracking-widest  title-font">CATEGORIES</h2>
         <nav className="mb-10 list-none">
           <li>
             <a className="text-gray-600 hover:text-gray-800">First Link</a>
@@ -22,8 +23,8 @@ const Footer = () => {
           </li>
         </nav>
       </div>
-      <div className="w-full px-4 lg:w-1/4 md:w-1/2">
-        <h2 className="mb-3 text-sm font-medium tracking-widest text-gray-900 title-font">CATEGORIES</h2>
+      <div className="w-full px-4 lg:w-1/3 md:w-1/2">
+        <h2 className="mb-3 text-sm font-medium tracking-widest  title-font">CATEGORIES</h2>
         <nav className="mb-10 list-none">
           <li>
             <a className="text-gray-600 hover:text-gray-800">First Link</a>
@@ -39,25 +40,8 @@ const Footer = () => {
           </li>
         </nav>
       </div>
-      <div className="w-full px-4 lg:w-1/4 md:w-1/2">
-        <h2 className="mb-3 text-sm font-medium tracking-widest text-gray-900 title-font">CATEGORIES</h2>
-        <nav className="mb-10 list-none">
-          <li>
-            <a className="text-gray-600 hover:text-gray-800">First Link</a>
-          </li>
-          <li>
-            <a className="text-gray-600 hover:text-gray-800">Second Link</a>
-          </li>
-          <li>
-            <a className="text-gray-600 hover:text-gray-800">Third Link</a>
-          </li>
-          <li>
-            <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
-          </li>
-        </nav>
-      </div>
-      <div className="w-full px-4 lg:w-1/4 md:w-1/2">
-        <h2 className="mb-3 text-sm font-medium tracking-widest text-gray-900 title-font">SUBSCRIBE</h2>
+      <div className="w-full px-4 lg:w-1/3 md:w-1/2">
+        <h2 className="mb-3 text-sm font-medium tracking-widest  title-font">SUBSCRIBE</h2>
         <div className="flex flex-wrap items-end justify-center xl:flex-nowrap md:flex-nowrap lg:flex-wrap md:justify-start">
           <div className="relative w-40 mr-2 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4">
             <label htmlFor="footer-field" className="text-sm leading-7 text-gray-600">Placeholder</label>

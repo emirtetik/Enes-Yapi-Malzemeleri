@@ -4,8 +4,10 @@ import { useState, useEffect } from 'react';
 interface Product {
   id: number;
   title: string;
-  date: string;
+  category: string;
   description: string;
+  image: string;
+  size: string;
 }
 
 interface ProductsData {

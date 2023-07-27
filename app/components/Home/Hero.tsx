@@ -11,10 +11,10 @@ const Hero = () => {
             src="https://www.knic.co.id/uploads/6/6-innovative-construction-materials-can-revolutionize-industry-in-indonesia.jpg"
             alt="background"
             quality={100}
-            objectFit="fill" 
+            objectFit="cover" 
           />
         </div>
-  <div className="container flex flex-col items-center px-5 py-24 mx-auto md:flex-row">
+  <div className="container flex flex-col items-center px-5 py-24 mx-auto md:flex-row max-w-6xl ">
     <div className="w-5/6 mb-10 lg:max-w-lg lg:w-full md:w-1/2 md:mb-0">
       <Image width={400} height={400} className="object-cover object-center rounded" alt="hero" src="https://images.unsplash.com/photo-1574757987642-5755f0839101?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQ0fHxjb25zdHJ1Y3Rpb24lMjBtZXRhcmlhbHN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"/>
     </div>

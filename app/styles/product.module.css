@@ -1,0 +1,16 @@
+.image_container {
+    position: relative;
+    width: 100%;
+    height: 20rem;
+  }
+/* ProductsCard.module.css */
+
+
+
+
+  @media screen and (max-width: 600px) {
+    .image_container {
+      height: 15rem;
+    }
+    
+  }

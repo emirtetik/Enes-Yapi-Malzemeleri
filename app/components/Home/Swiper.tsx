@@ -2,7 +2,8 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation  } from 'swiper/modules';
-import { TbPlayerTrackPrevFilled, TbPlayerTrackNextFilled } from 'react-icons/tb'; 
+import { IoMdBuild } from 'react-icons/io'; 
+import  {IoBuildSharp} from 'react-icons/io5';
 import Image from 'next/image';
 
 import 'swiper/css';
@@ -42,7 +43,7 @@ const images = [
 ]
 export default function MySwiper() {
   return (
-    <section className=' min-h-[150px]  '>
+    <section className='max-w-6xl px-5 mx-auto '>
     <Swiper
       spaceBetween={10}
       modules={[Navigation]}
@@ -67,10 +68,10 @@ export default function MySwiper() {
           </SwiperSlide>
         ))}
       <div  >
-          <TbPlayerTrackPrevFilled size={64} className=' swiper-button-prev'/>
+          <IoMdBuild size={64} className=' swiper-button-prev' style={{color: '#bb0000'}}/>
         </div>
         <div >
-          <TbPlayerTrackNextFilled size={64} className=' swiper-button-next'/>
+          <IoBuildSharp size={64} className=' swiper-button-next' style={{color: '#bb0000'}}/>
         </div>
     </Swiper>
     </section>

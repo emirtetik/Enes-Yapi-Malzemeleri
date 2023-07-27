@@ -31,7 +31,7 @@ const Header: React.FC = () => {
     { name: t('Anasayfa'), href: '/' },
     { name: t('Hakkımızda'), href: '/about' },
     { name: t('Ürünler'), href: '/products' },
-    { name: t('Faaliyetlerimiz'), href: '/business' },
+    { name: t('Faaliyetlerimiz'), href: '/activities' },
     { name: t('İletişim'), href: '/contact' },
   ];
 
