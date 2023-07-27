@@ -2,9 +2,11 @@ import React from 'react'
 import ProductsCard from '../components/Products/ProductsCard'
 import Image from 'next/image'
 import styles from '../styles/product.module.css'
+import ContactIcons from '../components/ContactIcons/ContactIcons'
 const productsPage = () => {
   return (
     <div>
+      <ContactIcons/>
        <div className={` ${styles.image_container}`}>
         <Image
           layout='fill'

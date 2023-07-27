@@ -2,7 +2,7 @@
 import React,{useEffect, useState} from 'react';
 import { FaWhatsapp, FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 import Link from 'next/link';
-import styles from '../../styles/ContactIcons.module.css'
+import styles from '../../styles/contactIcons.module.css'
 interface LocationProps {
     latitude: number;
     longitude: number;

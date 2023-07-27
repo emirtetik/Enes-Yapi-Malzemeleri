@@ -1,4 +1,3 @@
-'use client'
 import Footer from './components/Layout/Footer'
 import Header from './components/Layout/Header'
 import Providers from "./providers"
