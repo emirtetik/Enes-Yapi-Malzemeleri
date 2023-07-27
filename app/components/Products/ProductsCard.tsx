@@ -39,12 +39,12 @@ const ProductsCard = () => {
             selectedCategory={selectedCategory}
             onCategorySelect={handleCategorySelection}
           />  
-    <section className="max-w-6xl mx-auto px-5">
+    <section className="lg:max-w-6xl mx-auto px-5 md:max-w-2xl md:px-10 ">
     
     <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-wrap -m-4">
       {filteredData.map((product) => (
-      <div key={product.id} className="p-4 md:w-1/3 ">
+      <div key={product.id} className="p-4 md:w-1/2  lg:w-1/3 sm:w-1/1 ">
         <div className={`h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden bg-gray-950 ${styles.productsCard}`}>
           <Image width={200} height={200}
             objectFit="contain" 
