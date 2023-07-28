@@ -11,7 +11,13 @@ const productsUrl = process.env.NEXT_PUBLIC_PRODUCTS_URL || "";
 
 const ProductsCard = () => {
   const { data, loading, error } = useProductsData(productsUrl);
-  const [selectedCategory, setSelectedCategory] = React.useState('All');
+  const [selectCategory, setSelectCategory] = React.useState('All');
+
+
+  const handleCategorySelection = (category: string) => {
+    setSelectCategory(category);
+  };
+
 
   if (loading) {
     return <Loading />;
@@ -21,31 +27,29 @@ const ProductsCard = () => {
     return <Error message={error} />;
   }
 
-  const categories = [...new Set(data.map((product) => product.category))]
+  const categoryData = [...new Set(data.map((product) => product.category))]
 
-  const handleCategorySelection = (category: string) => {
-    setSelectedCategory(category);
-  };
-
-  // Filter products based on selected category
-  const filteredData =
-    selectedCategory === 'All'
+  const filteredData = selectCategory === 'All'
       ? data
-      : data.filter((product) => product.category === selectedCategory);
+      : data.filter((product) => product.category === selectCategory);
 
+ 
   return (
     <div>
      <CategorySidebar
-            categories={categories}
-            selectedCategory={selectedCategory}
+            data={categoryData}
+            categoryList={selectCategory}
             onCategorySelect={handleCategorySelection}
           />  
     <section className="lg:max-w-6xl mx-auto px-5 md:max-w-2xl md:px-10 ">
     
     <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-wrap -m-4">
+
       {filteredData.map((product) => (
-      <div key={product.id} className="p-4 md:w-1/2  lg:w-1/3 sm:w-1/1 ">
+      <div key={product.id} 
+      className="p-4 md:w-1/2 lg:w-1/3 scale-100 sm:w-1/1 hover:scale-110 duration-150 z-50">
+
         <div className={`h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden bg-gray-950 ${styles.productsCard}`}>
           <Image width={200} height={200}
             objectFit="contain" 
