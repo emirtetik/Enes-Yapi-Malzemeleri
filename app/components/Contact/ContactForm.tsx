@@ -26,15 +26,15 @@ const ContactForm = () => {
   return (
      <>
      <ContactIcons/>
-<section className="text-gray-600 body-font relative ">
-  <div className="container px-5 py-5 mx-auto  ">
+<section className=" body-font py-5 relative ">
+  <div className="max-w-6xl px-5 py-6 mx-auto bg-gray-700 ">
    
     <div className="lg:w-1/2 md:w-2/3 mx-auto">
       <Formik initialValues={initialValues} onSubmit={onSubmit} validationSchema={formSchema}>
         {({ handleSubmit, values, handleChange }) => (
           <Form  onSubmit={handleSubmit}>
-       <div className="flex flex-wrap py-4 ">
-           <div className="p-2 w-1/2">
+       <div className="flex flex-wrap ">
+           <div className="px-2 w-1/2">
           <div className="relative">
               <label htmlFor="firstName" className="block mb-1">
                 İsim
@@ -43,7 +43,7 @@ const ContactForm = () => {
                 type="text"
                 id="firstName"
                 name="firstName"
-                className="w-full p-2 border rounded bg-gray-300"
+                className="w-full p-2 border rounded bg-gray-900"
                 value={values.firstName}
                 onChange={handleChange}
               />
@@ -51,7 +51,7 @@ const ContactForm = () => {
             </div>
 
             </div>
-            <div className="p-2 w-1/2">
+            <div className="px-2 w-1/2">
           <div className="relative">
               <label htmlFor="lastName" className="block mb-1">
                 Soyadınız
@@ -60,7 +60,7 @@ const ContactForm = () => {
                 type="text"
                 id="lastName"
                 name="lastName"
-                className="w-full p-2 border rounded bg-gray-300"
+                className="w-full p-2 border rounded bg-gray-900"
                 value={values.lastName}
                 onChange={handleChange}
               />
@@ -79,7 +79,7 @@ const ContactForm = () => {
                 type="email"
                 id="email"
                 name="email"
-                className="w-full p-2 border rounded bg-gray-300"
+                className="w-full p-2 border rounded bg-gray-900"
                 value={values.email}
                 onChange={handleChange}
               />
@@ -95,7 +95,7 @@ const ContactForm = () => {
                 component="textarea"
                 id="text"
                 name="text"
-                className="w-full h-40 p-2 border rounded bg-gray-300"
+                className="w-full h-40 p-2 border rounded bg-gray-900"
                 value={values.text}
                 onChange={handleChange}
               />

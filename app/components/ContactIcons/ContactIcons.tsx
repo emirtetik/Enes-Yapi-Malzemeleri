@@ -22,7 +22,7 @@ const ContactIcons = () => {
    }, [])
    
   return (
-    <div className={`${visible ? styles.visible : styles.invisible} fixed flex flex-col gap-4 transform -translate-y-1/2 right-4 top-1/2`}>
+    <div className={`${visible ? 'block' : 'hidden'}  fixed flex flex-col gap-4 transform -translate-y-1/2 right-4 top-1/2`}>
       <Link href="https://web.whatsapp.com/send?phone=5394480527"
        target="_blank" rel="noopener noreferrer" className="text-green-500 ">
         <FaWhatsapp size={24} />
