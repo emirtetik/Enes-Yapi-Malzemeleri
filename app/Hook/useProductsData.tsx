@@ -8,6 +8,7 @@ interface Product {
   description: string;
   image: string;
   size: string;
+  detail?:string;
 }
 
 interface ProductsData {

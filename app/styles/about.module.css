@@ -9,11 +9,11 @@
   }
   @media screen and (max-width: 600px) {
     .image_container {
-      height: 17rem;
+      height: 34rem;
     }
     
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1350px) {
     .flex_container {
       flex-direction: row;
     }

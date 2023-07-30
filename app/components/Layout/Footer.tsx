@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import Link from 'next/link'
-import i18n from '../../i18n/i18n';
+import Image from 'next/image';
 import { useTranslation } from 'react-i18next';
 const Footer = () => {
   const { t } = useTranslation();
@@ -10,14 +10,12 @@ const Footer = () => {
   return (
     <footer className=" body-font">
   <div className="container px-5 py-24 mx-auto border-t border-gray-800">
-    <div className="flex flex-wrap order-first text-center md:text-left">
+    <div className="flex flex-wrap order-first text-center md:text-left max-w-6xl mx-auto">
       
       <div className="w-full px-4 lg:w-1/3 md:w-1/2   ">
       <div className="flex   py-6  items-center ">
-                  <Link href="/">
-                    <h1 className="px-4 text-2xl font-medium">
-                    <span className="text-red-500">   Enes</span> İnşaat
-                    </h1>
+             <Link href="/">
+                    <Image src="/assets/loge.jpg" width={250} height={120} alt='logo'/>
                   </Link>
            
                 </div>
@@ -55,9 +53,7 @@ const Footer = () => {
           <li>
             <Link href='/products' className="text-gray-600 hover:text-gray-800">{t('Ürünler')}</Link>
           </li>
-          <li>
-            <Link href='/activities' className="text-gray-600 hover:text-gray-800">{t('Faaliyetlerimiz')}</Link>
-          </li>
+         
           <li>
             <Link href='/contact' className="text-gray-600 hover:text-gray-800">{t('İletişim')}</Link>
           </li>

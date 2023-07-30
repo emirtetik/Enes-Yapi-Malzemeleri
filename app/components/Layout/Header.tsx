@@ -1,11 +1,13 @@
 'use client'
 import React from 'react';
 import { usePathname } from 'next/navigation';
+import Image from 'next/image';
 import Link from 'next/link';
 import i18n from '../../i18n/i18n';
 import { useTranslation } from 'react-i18next';
 import ThemeButton from '../Button/ThemeButton/ThemeButton';
 import Button from '../Button/MobileButton/Button';
+import { FaWhatsapp,FaPhone } from 'react-icons/fa';
 
 interface NavList {
   name: string;
@@ -31,19 +33,25 @@ const Header: React.FC = () => {
     { name: t('Anasayfa'), href: '/' },
     { name: t('Hakkımızda'), href: '/about' },
     { name: t('Ürünler'), href: '/products' },
-    { name: t('Faaliyetlerimiz'), href: '/activities' },
     { name: t('İletişim'), href: '/contact' },
   ];
 
   return (
     <div>
+        <div className="flex justify-end items-center bg-gray-300 py-1">
+        <div className="mr-2 text-red-500 font-bold">0544 441 441 33</div>
+        <Link href="https://web.whatsapp.com/send?phone=5394480527"
+       target="_blank" rel="noopener noreferrer" className="text-green-500 mr-0 sm:mr-56">
+        <FaWhatsapp size={24} />
+      </Link>
+     
+      </div>
+
       <header className='py-6 mx-auto max-w-7xl sm:px-6 lg:px-8'>
         <nav className='container flex items-center justify-between'>
           <div className="flex items-center ">
                   <Link href="/">
-                    <h1 className="px-4 text-2xl font-medium">
-                      Enes <span className="text-red-500">İnşaat</span>
-                    </h1>
+                    <Image src="/assets/loge.jpg" width={180} height={100} alt='logo'/>
                   </Link>
                 </div>
 

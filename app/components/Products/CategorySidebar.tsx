@@ -6,9 +6,9 @@ interface CategorySidebarProps {
   }
 const CategorySidebar = ({ data, categoryList, onCategorySelect }: CategorySidebarProps) => {
   return (
-    <div className={`grid lg:absolute py-4  border-r border-gray-300 w-50 relative px-20`}>
-      <h2 className="text-xl font-semibold mb-4 text-center ">Kategori</h2>
-      <ul className="flex flex-col space-y-2 items-center lg:items-start">
+    <div className={`grid  py-4  border-r border-gray-300  relative `}>
+      <h2 className="text-xl font-semibold mb-4 text-start ">Kategori</h2>
+      <ul className="flex flex-col space-y-2 items-start ">
         <li>
           <button
             className={`block  ${
@@ -21,7 +21,7 @@ const CategorySidebar = ({ data, categoryList, onCategorySelect }: CategorySideb
         </li>
         
         {data.map((category) => (
-          <li key={category}>
+          <li key={category} className='whitespace-normal lg:w-32 break-words'>
             <button
               className={`block text-left  ${
                 categoryList === category ? 'text-red-500 font-semibold' : 'text-gray-600'

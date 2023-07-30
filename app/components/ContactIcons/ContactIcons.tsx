@@ -20,20 +20,33 @@ const ContactIcons = () => {
         window.removeEventListener('scroll', handleScroll);
     }
    }, [])
+   useEffect(() => {
+    const handleResize = () => {
+      setVisible(window.innerWidth > 640); 
+    };
+
+    handleResize();
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
    
   return (
     <div className={`${visible ? 'block' : 'hidden'}  fixed flex flex-col gap-4 transform -translate-y-1/2 right-4 top-1/2`}>
       <Link href="https://web.whatsapp.com/send?phone=5394480527"
        target="_blank" rel="noopener noreferrer" className="text-green-500 ">
-        <FaWhatsapp size={24} />
+        <FaWhatsapp size={34} />
       </Link>
       <Link href="tel:5394480527" className="text-blue-500 ">
-        <FaPhone size={24} />
+        <FaPhone size={34} />
       </Link>
       
       <Link href={`https://www.google.com/maps/dir/Current+Location/${latitude},${longitude}`} 
       target="_blank" rel="noopener noreferrer" className="text-red-500 ">
-        <FaMapMarkerAlt size={24} />
+        <FaMapMarkerAlt size={34} />
       </Link>
     </div>
   );
