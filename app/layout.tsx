@@ -17,15 +17,12 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-  title = 'Anasayfa',
 }: {
   children: React.ReactNode;
-  title?: string; 
 }) {
   return (
     <html lang="tr" suppressHydrationWarning>
        <head>
-        <title>{title}</title>
       </head>
       <body >
         <Providers>

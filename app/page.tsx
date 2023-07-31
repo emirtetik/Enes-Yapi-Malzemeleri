@@ -1,4 +1,3 @@
-'use client'
 import React from 'react';
 import ContactIcons from './components/ContactIcons/ContactIcons';
 import Hero from './components/Home/Hero';

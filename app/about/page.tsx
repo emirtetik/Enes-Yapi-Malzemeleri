@@ -4,10 +4,8 @@ import Image from 'next/image'
 import styles from '../styles/about.module.css'
 import {FaBuilding,FaUsers,FaBullseye  } from 'react-icons/fa'
 import {BiSolidTimeFive} from 'react-icons/bi'
-import RootLayout from '../layout'
 const page = () => {
   return (
-    <RootLayout title='Hakkımızda'>
     <div>
       <ContactIcons/>
       <div className={`flex flex-wrap sm:grid lg:grid-cols-3  `}>
@@ -77,7 +75,6 @@ const page = () => {
 </section>
    </div>
       </div>
-      </RootLayout>
   )
 }
 

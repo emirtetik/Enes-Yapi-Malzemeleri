@@ -1,11 +1,9 @@
 import React from 'react';
 import ContactForm from '../components/Contact/ContactForm';
 import ContactIcons from '../components/ContactIcons/ContactIcons';
-import RootLayout from '../layout';
 
 const Page = () => {
   return (
-    <RootLayout title='İletişim'>
     <div>
       <div className="w-full h-80">
         <iframe
@@ -19,18 +17,17 @@ const Page = () => {
           style={{ filter: "grayscale(0.7) contrast(1.1)", opacity: 0.7 }}
         ></iframe>
       </div>
-      <div className="flex flex-col max-w-6xl mx-auto px-5 mt-8">
-      <div className="h-1 overflow-hidden bg-gray-200 rounded w-2/5">
+      <div className="flex flex-col max-w-6xl px-5 mx-auto mt-8">
+      <div className="w-2/5 h-1 overflow-hidden bg-gray-200 rounded">
         <div className="w-24 h-full bg-red-500"></div>
       </div>
       <div className="flex flex-col flex-wrap py-6 mb-12 sm:flex-row">
-        <h1 className="mb-2 text-6xl  text-red-500 sm:w-2/5 title-font font-bold sm:mb-0">İletişim</h1>
+        <h1 className="mb-2 text-6xl font-bold text-red-500 sm:w-2/5 title-font sm:mb-0">İletişim</h1>
         <p className="pl-0 text-base leading-relaxed sm:w-3/5 sm:pl-10">Street art subway tile salvia four dollar toast bitters selfies quinoa yuccie synth meditation iPhone intelligentsia prism tofu. Viral gochujang bitters dreamcatcher.</p>
       </div>
     </div>
       <ContactForm />
     </div>
-    </RootLayout>
   );
 };
 
