@@ -1,7 +1,7 @@
 "use client"
 import { useState, useEffect } from 'react';
 
-interface Product {
+export interface Product {
   id: number;
   title: string;
   category: string;

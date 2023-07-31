@@ -63,7 +63,7 @@ const Footer = () => {
         <h2 className="mb-3 text-sm font-bold tracking-widest  title-font">İletişim</h2>
         <div className="flex flex-wrap items-end justify-center xl:flex-nowrap md:flex-nowrap lg:flex-wrap md:justify-start">
           <div className="relative w-40 mr-2 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4">
-            <form action="">
+            <form action={'https://getform.io/f/72e4b6a8-3479-4c9c-96ed-4a457b43b226'} method='POST' >
             <label htmlFor="footer-field" className="text-sm leading-7 text-gray-600">Mesaj</label>
             <textarea  id="text" name="textarea" className="w-full px-3 py-1 text-base leading-8 text-gray-700 transition-colors duration-200 ease-in-out bg-gray-100 bg-opacity-50 border border-gray-300 rounded outline-none focus:bg-transparent focus:ring-2 focus:ring-red-200 focus:border-red-500"/>
             

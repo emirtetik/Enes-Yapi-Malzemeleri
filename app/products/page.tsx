@@ -3,8 +3,10 @@ import ProductsCard from '../components/Products/ProductsCard'
 import Image from 'next/image'
 import styles from '../styles/product.module.css'
 import ContactIcons from '../components/ContactIcons/ContactIcons'
+import RootLayout from '../layout'
 const productsPage = () => {
   return (
+    <RootLayout title='Ürünler'>
     <div>
       <ContactIcons/>
        <div className={` ${styles.image_container}`}>
@@ -28,6 +30,7 @@ const productsPage = () => {
     </div>
         <ProductsCard/>
         </div>
+        </RootLayout>
   )
 }
 

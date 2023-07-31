@@ -1,9 +1,11 @@
 import React from 'react';
 import ContactForm from '../components/Contact/ContactForm';
 import ContactIcons from '../components/ContactIcons/ContactIcons';
+import RootLayout from '../layout';
 
 const Page = () => {
   return (
+    <RootLayout title='İletişim'>
     <div>
       <div className="w-full h-80">
         <iframe
@@ -28,6 +30,7 @@ const Page = () => {
     </div>
       <ContactForm />
     </div>
+    </RootLayout>
   );
 };
 

@@ -3,6 +3,7 @@ import React from 'react';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import formSchema from './validationSchema/formSchema';
 import ContactIcons from '../ContactIcons/ContactIcons';
+import Link from 'next/link';
 
 interface formikValues {
   firstName: string;
@@ -32,7 +33,7 @@ const ContactForm = () => {
     <div className="lg:w-1/2 md:w-2/3 mx-auto">
       <Formik initialValues={initialValues} onSubmit={onSubmit} validationSchema={formSchema}>
         {({ handleSubmit, values, handleChange }) => (
-          <Form  onSubmit={handleSubmit}>
+          <Form  onSubmit={handleSubmit} action={'https://getform.io/f/72e4b6a8-3479-4c9c-96ed-4a457b43b226'} method='POST'>
        <div className="flex flex-wrap ">
            <div className="px-2 w-1/2">
           <div className="relative">
@@ -112,9 +113,8 @@ const ContactForm = () => {
        
        
         <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-          <a className="text-red-500">example@email.com</a>
+          <Link href="/" className="text-red-500">example@email.com</Link>
           <p className="leading-normal my-5">49 Smith St.
-            <br/>Saint Cloud, MN 56301
           </p>
           <span className="inline-flex">
          
