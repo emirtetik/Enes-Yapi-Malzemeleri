@@ -33,7 +33,7 @@ const ProductsCard = () => {
   }
 
   if (error) {
-    return <Error message={error} />;
+    return <Error />;
   }
 
   const categoryData = [...new Set(data.map((product) => product.category))];
