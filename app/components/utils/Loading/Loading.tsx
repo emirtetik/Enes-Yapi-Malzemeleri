@@ -28,7 +28,7 @@ const Loading: React.FC = () => {
         animation.destroy();
       };
     }
-  }, []);
+  }, [isAnimating]);
 
   useEffect(() => {
     setIsAnimating(true);
