@@ -1,9 +1,9 @@
+'use client'
 import Footer from './components/Layout/Footer'
 import Header from './components/Layout/Header'
 import Providers from "./providers"
 import './globals.css'
 import type { Metadata } from 'next'
-
 
 export const metadata: Metadata = {
   title: 'Enes Insaat',

@@ -1,48 +1,83 @@
-import Image from 'next/image'
-import React from 'react'
+'use client'
+import Image from 'next/image';
+import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const Content = () => {
-  return (
-    <section className=" body-font max-w-6xl mx-auto px-5 ">
-  <div className="container px-5 py-24 mx-auto">
-    <div className="flex flex-col">
-      <div className="h-1 overflow-hidden bg-gray-200 rounded">
-        <div className="w-24 h-full bg-red-500"></div>
-      </div>
-      <div className="flex flex-col flex-wrap py-6 mb-12 sm:flex-row">
-        <h1 className="mb-2 text-2xl font-medium  sm:w-2/5 title-font sm:mb-0">Space The Final Frontier</h1>
-        <p className="pl-0 text-base leading-relaxed sm:w-3/5 sm:pl-10">Street art subway tile salvia four dollar toast bitters selfies quinoa yuccie synth meditation iPhone intelligentsia prism tofu. Viral gochujang bitters dreamcatcher.</p>
-      </div>
-    </div>
-    <div className="flex flex-wrap -mx-4 -mt-4 -mb-10 sm:-m-4">
-      <div className="p-4 mb-6 md:w-1/3 sm:mb-0">
-        <div className="h-64 overflow-hidden rounded-lg">
-          <Image width={200} height={200} alt="content" className="object-cover object-center w-full h-full" src="https://images.unsplash.com/photo-1621463678038-8fc7b01d13e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjIxfHxjb25zdHJ1Y3Rpb24lMjBtZXRhcmlhbHN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"/>
-        </div>
-        <h2 className="mt-5 text-xl font-medium  title-font">Shooting Stars</h2>
-        <p className="mt-2 text-base leading-relaxed">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
-        
-      </div>
-      <div className="p-4 mb-6 md:w-1/3 sm:mb-0">
-        <div className="h-64 overflow-hidden rounded-lg">
-          <Image width={200} height={200} alt="content" className="object-cover object-center w-full h-full" src="https://images.unsplash.com/photo-1666660165383-0c63c6947e46?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjEwfHxjb25zdHJ1Y3Rpb24lMjBtZXRhcmlhbHN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"/>
-        </div>
-        <h2 className="mt-5 text-xl font-medium  title-font">The Catalyzer</h2>
-        <p className="mt-2 text-base leading-relaxed">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
-       
-      </div>
-      <div className="p-4 mb-6 md:w-1/3 sm:mb-0">
-        <div className="h-64 overflow-hidden rounded-lg">
-          <Image width={200} height={200} alt="content" className="object-cover object-center w-full h-full" src="https://images.unsplash.com/photo-1619181111792-36c39c41bf54?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjE5fHxjb25zdHJ1Y3Rpb24lMjBtZXRhcmlhbHN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"/>
-        </div>
-        <h2 className="mt-5 text-xl font-medium  title-font">The 400 Blows</h2>
-        <p className="mt-2 text-base leading-relaxed">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
-      
-      </div>
-    </div>
-  </div>
-</section>
-  )
-}
+  const { t } = useTranslation(); // useTranslation hook'u ile çeviri fonksiyonunu alıyoruz
 
-export default Content
+  return (
+    <section className="max-w-6xl px-5 mx-auto body-font">
+      <div className="container px-5 py-24 mx-auto">
+        <div className="flex flex-col">
+          <div className="h-1 overflow-hidden bg-gray-200 rounded">
+            <div className="w-full h-full bg-red-500"></div>
+          </div>
+          <div className="flex flex-col flex-wrap py-6 mb-12 sm:flex-row">
+            <h1 className="mb-2 text-2xl font-medium sm:w-2/5 title-font sm:mb-0">
+              {t('Faaliyetlerimiz')}
+            </h1>
+            <p className="pl-0 text-base leading-relaxed sm:w-3/5 sm:pl-10">
+              {t('İnşaat Malzemeleri Tedariği: İnşaatınızın her aşamasını kapsayacak geniş ürün yelpazemizle, temelden çatıya kadar tüm gereksinimlerinizi karşılamak için buradayız. Ayrıca, ev tadilatları için ihtiyaç duyacağınız tüm ürünleri de bulabileceğiniz birinci sınıf hizmet sunuyoruz. Kalite, güvenilirlik ve müşteri memnuniyeti odaklı yaklaşımımızla inşaat projelerinize değer katmak için yanınızdayız.')}
+            </p>
+          </div>
+        </div>
+        <div className="flex flex-wrap -mx-4 -mt-4 -mb-10 sm:-m-4">
+          <div className="p-4 mb-6 md:w-1/3 sm:mb-0">
+            <div className="h-64 overflow-hidden rounded-lg">
+              <Image
+                width={200}
+                height={200}
+                alt="content"
+                className="object-cover object-center w-full h-full"
+                src="/assets/content/kaba.webp"
+              />
+            </div>
+            <h2 className="mt-5 text-xl font-medium text-red-500 title-font">
+              {t('Kaba İnşaat')}
+            </h2>
+            <p className="mt-2 text-base leading-relaxed">
+              {t('İnşaatınıza Uygun Demir ve Beton Tedariği: Bina duvarlarının dayanıklılığı önceliğimizdir. Projenizin gereksinimlerine uygun çeşitlilikteki kaliteli duvar ürünleriyle kaba inşaatınızın her aşamasında sizlere destek sağlıyoruz. Bütçenizi göz önünde bulundurarak, güvenilir malzemelerle en uygun çözümleri sunmak için buradayız.')}
+            </p>
+          </div>
+          <div className="p-4 mb-6 md:w-1/3 sm:mb-0">
+            <div className="h-64 overflow-hidden rounded-lg">
+              <Image
+                width={200}
+                height={200}
+                alt="content"
+                className="object-cover object-center w-full h-full"
+                src="/assets/content/dıs.jpg"
+              />
+            </div>
+            <h2 className="mt-5 text-xl font-medium text-red-500 title-font">
+              {t('Isı Yalıtım ve Dış Cephe')}
+            </h2>
+            <p className="mt-2 text-base leading-relaxed">
+              {t('Binanızın ısı yalıtım süreçlerinde, geniş ürün yelpazemizle bütçenizi korurken, aynı zamanda beklenen ısı yalıtım performansını kesintisiz bir şekilde sizlere sunuyoruz. İhtiyaçlarınıza özel olarak tasarlanan çözümlerimizle, enerji tasarrufunu ve konforu bir araya getiriyoruz. Isı yalıtımı işleminden sonra, binanızı estetik bir şekilde tamamlamak için dekoratif amaçlı boya ve çeşitli ürünlerle size eşsiz seçenekler sunuyoruz. Görsel zevkinizi yansıtan, isteklerinize uygun ve bütçenize dost dekoratif çözümlerle binanızın görünümünü mükemmelleştiriyoruz.')}
+            </p>
+          </div>
+          <div className="p-4 mb-6 md:w-1/3 sm:mb-0">
+            <div className="h-64 overflow-hidden rounded-lg">
+              <Image
+                width={200}
+                height={200}
+                alt="content"
+                className="object-cover object-center w-full h-full"
+                src="/assets/content/tadilat.avif"
+              />
+            </div>
+            <h2 className="mt-5 text-xl font-medium text-red-500 title-font">
+              {t('Tadilat')}
+            </h2>
+            <p className="mt-2 text-base leading-relaxed">
+              {t('Teknik ekibimizle birlikte, yaşam alanınızı hayal ettiğiniz şekilde tasarlamak için özenle çalışıyoruz. Sizin için en uygun değişimleri planlayarak, evinizdeki yeniliklere adım atmanızı kolaylaştırıyoruz.')}
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Content;

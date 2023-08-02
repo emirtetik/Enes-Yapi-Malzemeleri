@@ -37,10 +37,10 @@ const ContactIcons = () => {
     <>
       {visible && (
         <div className={`fixed flex flex-col gap-4 transform -translate-y-1/2 right-4 top-1/2`}>
-          <Link href="https://web.whatsapp.com/send?phone=5394480527" target="_blank" rel="noopener noreferrer" className="text-green-500">
+          <Link href="https://web.whatsapp.com/send?phone=0537 495 7296" target="_blank" rel="noopener noreferrer" className="text-green-500">
             <FaWhatsapp size={34} />
           </Link>
-          <Link href="tel:5394480527" className="text-blue-500">
+          <Link href="tel:0537 495 7296" className="text-blue-500">
             <FaPhone size={34} />
           </Link>
 

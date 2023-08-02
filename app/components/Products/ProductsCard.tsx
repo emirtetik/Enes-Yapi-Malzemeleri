@@ -13,7 +13,7 @@ const productsUrl = process.env.NEXT_PUBLIC_PRODUCTS_URL || '';
 const ProductsCard = () => {
   const { data, loading, error } = useProductsData(productsUrl);
   const [selectCategory, setSelectCategory] = React.useState('All');
-  const [selectedProduct, setSelectedProduct] = React.useState<Product | null>(null); // State to store selected product
+  const [selectedProduct, setSelectedProduct] = React.useState<Product | null>(null); 
 
   
   const handleProductClick = (product: Product) => {
@@ -47,7 +47,6 @@ const ProductsCard = () => {
 
   return (   
     <div className="grid max-w-6xl grid-cols-1 gap-4 px-5 mx-auto sm:grid-cols-3">
-      {/* Category List Section */}
       <div className="col-span-1">
         <CategorySidebar
           data={categoryData}
@@ -56,7 +55,6 @@ const ProductsCard = () => {
         />
       </div>
 
-      {/* Product Cards Section */}
       <div className="grid grid-cols-1 col-span-2 gap-4 sm:grid-cols-2">
         {filteredData.map((product) => (
           <div
@@ -90,7 +88,7 @@ const ProductsCard = () => {
                 {
                   product.detail && (
               <button
-                  onClick={() => handleProductClick(product)} // Open the modal with the selected product
+                  onClick={() => handleProductClick(product)} 
                   className="px-4 py-2 mt-2 text-gray-900 bg-white rounded-lg"
                 >
                   View Details

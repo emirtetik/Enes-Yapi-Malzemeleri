@@ -1,9 +1,12 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-    images: {
-        domains: ['images.unsplash.com'
-                  ],
-      },
-}
+const path = require('path');
 
-module.exports = nextConfig
+module.exports = {
+  i18n: {
+    locales: ['tr'],
+    defaultLocale: 'tr',
+    localePath: path.resolve('./public/locales'),
+  },
+  images: {
+    domains: ['images.unsplash.com'],
+  },
+};

@@ -38,10 +38,10 @@ const Header: React.FC = () => {
 
   return (
     <div>
-        <div className="flex justify-end items-center bg-gray-300 py-1">
-        <div className="mr-2 text-red-500 font-bold">0544 441 441 33</div>
-        <Link href="https://web.whatsapp.com/send?phone=5394480527"
-       target="_blank" rel="noopener noreferrer" className="text-green-500 mr-0 sm:mr-56">
+        <div className="flex items-center justify-end py-1 bg-gray-300">
+        <div className="mr-2 font-bold text-red-500">0537 495 7296</div>
+        <Link href="https://web.whatsapp.com/send?phone=0537 495 7296"
+       target="_blank" rel="noopener noreferrer" className="mr-0 text-green-500 sm:mr-56">
         <FaWhatsapp size={24} />
       </Link>
      
@@ -90,9 +90,9 @@ const Header: React.FC = () => {
         openMobile && (
           <div className='flex items-center justify-center pt-4 border-b border-gray-700 sm:hidden '>
               
-              <ul className="grid gap-4 pt-4 pb-2 ">
+              <ul className="grid gap-4 pt-4 pb-2 cursor-pointer">
               {navList.map((link, index) => (
-                <li key={index}>
+                <li key={index} className='cursor-pointer'>
                   <Link href={link.href} className={pathname === link.href ? 'text-red-500 font-bold' : ''}>
                     {link.name}
                   </Link>

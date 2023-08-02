@@ -14,32 +14,44 @@ import 'swiper/css/pagination';
 const images = [
     {
         id: 1,
-        src: '/assets/swiper/images.jpg',   
+        src: '/assets/swiper/nuh.png',   
     },
     {
         id: 2,
-        src: '/assets/swiper/logo.png',   
+        src: '/assets/swiper/ytong.png',   
     },
     {
         id: 3,
-        src: '/assets/swiper/images.jpg',   
+        src: '/assets/swiper/oyak.png',   
     },
     {
         id: 4,
-        src: '/assets/swiper/images.png',   
+        src: '/assets/swiper/kudret.jpg',   
     },
     {
         id: 5,
-        src: '/assets/swiper/images.jpg',   
+        src: '/assets/swiper/gurok.jpg',   
     },
     {
         id: 6,
-        src: '/assets/swiper/download.png',   
+        src: '/assets/swiper/ekra.png',   
     },
     {
         id: 7,
-        src: '/assets/swiper/download.jpg',   
-    }
+        src: '/assets/swiper/izocam.png',   
+    },
+    {
+      id: 8,
+      src: '/assets/swiper/decostone.png',   
+  },
+  {
+    id: 9,
+    src: '/assets/swiper/abs.png',   
+},
+{
+  id: 10,
+  src: '/assets/swiper/hisar.jpg',   
+}
 ]
 export default function MySwiper() {
   return (

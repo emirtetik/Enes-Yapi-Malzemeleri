@@ -2,65 +2,57 @@
   {                                          
     "id": 1,
     "category": "Kum",
-    "title": "Papaz Kum",
-    "description": "Bu ürün harika bir özelliklere sahiptir.",
-    "image": "/assets/product/papaz.webp",
-    "detail": "With this setup, the objectFit property of the Image component will be set to 'none' when the screen size is that of a "
+    "title": "Papaz Kum",    
+    "image": "/assets/product/papaz.webp"
 
   },
   {                                          
     "id": 2,
     "category": "Kum",
-    "title": "Kum",
-    "description": "Bu ürün harika bir özelliklere sahiptir.",
-    "size":"boyut: 03",
+    "title": "Kum 03",
     "image": "/assets/product/03-kum.jpg"
   },
   {                                          
     "id": 3,
     "category": "Kum",
-    "title": "Kum",
-    "description": "Bu ürün harika bir özelliklere sahiptir.",
-    "size":"boyut: 05",
-    "image": "/assets/product/05-kum.png",
-    "detail": "With this setup, the objectFit property of the Image component will be set to 'none' when the screen size is that of a "
+    "title": "Kum 05",
+    "image": "/assets/product/05-kum.png"
 
   },
   {                                          
     "id": 4,
     "category": "Kum",
-    "title": "Kum",
-    "description": "Bu ürün harika bir özelliklere sahiptir.",
-    "size":"boyut: 07",
+    "title": "Kum 07",
+    
     "image": "/assets/product/07-kum.jpg"
   },
   {                                          
     "id": 5,
     "category": "Kum",
     "title": "Çakıl",
-    "description": "Bu ürün harika bir özelliklere sahiptir.",
+    
     "image": "/assets/product/cakıl.jpg"
   },
   {                                          
     "id": 6,
     "category": "Kum",
     "title": "Mıcır",
-    "description": "Bu ürün harika bir özelliklere sahiptir.",
+    
     "image": "/assets/product/mıcır.jpg"
   },
   {
     "id": 7,
     "category": "Çimento",
     "title": "Nuh çimento",
-    "description": "Bu ürün mükemmel performansa sahiptir.",
-    "image": "/assets/product/nuh-cimento.jpg"
+    
+    "image": "/assets/product/nuh-cimento.jpeg"
 
   },
   {
     "id": 8,
     "category": "Çimento",
     "title": "Bolu çimento",
-    "description": "Bu ürün mükemmel performansa sahiptir.",
+    
     "image": "/assets/product/bolu-cimento.png"
 
   },
@@ -68,7 +60,7 @@
     "id": 9,
     "category": "Çimento",
     "title": "Nuh Kireç",
-    "description": "Bu ürün mükemmel performansa sahiptir.",
+    
     "image": "/assets/product/nuh-kireç.jpg"
 
   },
@@ -76,85 +68,85 @@
     "id": 10,
     "category": "Yapı Kimyasalları",
     "title": "Yutong Yapıştırıcı",
-    "description": "Bu ürün kullanıcı dostudur ve kolay kurulum sağlar.",
+    
     "image": "/assets/product/y-yapıstırıcı.jpg"
   },
   {
     "id": 11,
     "category": "Yapı Kimyasalları",
     "title": "Derz Dolgu Beyaz",
-    "description": "Bu ürün uzun ömürlüdür ve dayanıklıdır.",
+    
     "image": "/assets/product/derz.jpg"
   },
   {
     "id": 12,
     "category": "Yapı Kimyasalları",
     "title": "Derz Dolgu Gri",
-    "description": "Bu ürün uzun ömürlüdür ve dayanıklıdır.",
+    
     "image": "/assets/product/derz.jpg"
   },
   {
     "id": 13,
     "category": "Yapı Kimyasalları",
     "title": "Derz Dolgu Bej",
-    "description": "Bu ürün uzun ömürlüdür ve dayanıklıdır.",
+    
     "image": "/assets/product/derz.jpg"
   },
   {
     "id": 14,
     "category": "Yapı Kimyasalları",
     "title": "Alçı",
-    "description": "Bu ürün kullanıcı dostudur ve kolay kurulum sağlar.",
-    "image": "/assets/product/alcı.webp"
+    
+    "image": "/assets/product/alcı.jpeg"
   },
   {
     "id": 15,
     "category": "Yapı Kimyasalları",
     "title": "Saten Alçı",
-    "description": "Bu ürün kullanıcı dostudur ve kolay kurulum sağlar.",
-    "image": "/assets/product/saten-alcı.jpg"
+    
+    "image": "/assets/product/saten-alcı.jpeg"
   },
   {
     "id": 16,
     "category": "Yapı Kimyasalları",
     "title": "Mahya Harcı",
-    "description": "Bu ürün kullanıcı dostudur ve kolay kurulum sağlar.",
-    "image": "/assets/product/mahya-harcı.jpg"
+    
+    "image": "/assets/product/mahya-harcı.jpeg"
   },
   {
     "id": 17,
     "category": "Yapı Kimyasalları",
     "title": "Kalekim",
-    "description": "Bu ürün kullanıcı dostudur ve kolay kurulum sağlar.",
+    
     "image": "/assets/product/kalekim.webp"
   },
   {
     "id": 18,
     "category": "Yapı Kimyasalları",
     "title": "Dekoratif Sıva",
-    "description": "Bu ürün kullanıcı dostudur ve kolay kurulum sağlar.",
-    "image": "/assets/product/dekoratif-sıva.jpg"
+    
+    "image": "/assets/product/dekoratif-sıva.jpeg"
   },
   {
     "id": 19,
     "category": "Yapı Kimyasalları",
     "title": "Decostone Elyaflı Isı Yalıtım",
-    "description": "Bu ürün kullanıcı dostudur ve kolay kurulum sağlar.",
-    "image": "/assets/product/decostone.png"
+    
+    "image": "/assets/product/decostone.jpeg"
   },
  
   {
     "id": 20,
     "category": "Yapı Kimyasalları",
     "title": "Seramik Yapıştırıcı",
-    "description": "Bu ürün kullanıcı dostudur ve kolay kurulum sağlar.",
-    "image": "/assets/product/SERAMIK-YAPISTIRICI.jpg"
+    
+    "image": "/assets/product/seramik-yapıstırıcı.jpeg"
   },
   {
     "id": 21,
     "category": "Yapı Kimyasalları",
     "title": "Sıva Harcı (Makina)",
-    "description": "Bu ürün kullanıcı dostudur ve kolay kurulum sağlar.",
+    
     "image": "/assets/product/sıva-harcı.jpg"
   },
   
@@ -162,274 +154,286 @@
     "id": 22,
     "category": "Tuğla",
     "title": "Ateş Tuğla ",
-    "size": "boyut: 8,5",
-    "description": "Bu ürün çevre dostudur ve geri dönüştürülebilir malzemelerden yapılmıştır.",
+    
     "image": "/assets/product/ateş-tugla.jpg"
   },
   {
     "id": 23,
     "category": "Tuğla",
-    "title": "Ateş Tuğla ",
-    "size": "boyut: 13,5",
-    "description": "Bu ürün çevre dostudur ve geri dönüştürülebilir malzemelerden yapılmıştır.",
-    "image": "/assets/product/ateş-tugla.jpg"
+    "title": "Harman Tuğla ",
+    
+    "image": "/assets/product/harman-tugla.jpg"
   },
   {
     "id": 24,
     "category": "Tuğla",
     "title": "Yığma Tuğla ",
-    "size": "boyut: 8,5",
-    "description": "Bu ürün çevre dostudur ve geri dönüştürülebilir malzemelerden yapılmıştır.",
-    "image": "/assets/product/8tugla.jpg"
+    
+    "image": "/assets/product/yıgma.jpeg"
 
   },
 
   {
     "id": 25,
     "category": "Tuğla",
-    "title": "Yığma Tuğla ",
-    "size": "boyut: 13,5",
-    "description": "Bu ürün çevre dostudur ve geri dönüştürülebilir malzemelerden yapılmıştır.",
-    "image": "/assets/product/yığma.jpg"
+    "title": "13,5 Tuğla ",
+    
+    "image": "/assets/product/135tugla.jpeg"
   },
   {
     "id": 26,
     "category": "Tuğla",
-    "title": "Baca Kare Tuğla",
-    "description": "Bu ürün şık ve kullanışlıdır.",
-    "image": "/assets/product/baca-tugla.jpg"
+    "title": "8,5 Tuğla",
+    
+    "image": "/assets/product/8tugla.jpg"
 
   },
   {
     "id": 27,
     "category": "Tuğla",
-    "title": "Şömine Kiremit",
-    "description": "Bu ürün şık ve kullanışlıdır.",
-    "image": "/assets/product/somine-kiremit.jpg"
+    "title": "Kare Baca",
+    
+    "image": "/assets/product/Kare-Baca.webp"
 
   },
   {
     "id": 28,
-    "category": "Kiremit",
-    "title": "Marsilya Kiremit",
-    "description": "Bu ürün şık ve kullanışlıdır.",
-    "image": "/assets/product/marsilya.jpg"
+    "category": "Tuğla",
+    "title": "yuvarlak Baca",
+    
+    "image": "/assets/product/yuvarlak-baca.jpg"
 
   },
   {
     "id": 29,
-    "category": "Kiremit",
-    "title": "Beton Kiremit",
-    "description": "Bu ürün şık ve kullanışlıdır.",
-    "image": "/assets/product/beton-kiremit.jpg"
+    "category": "Tuğla",
+    "title": "Şömine Baca",
+    
+    "image": "/assets/product/somine-baca.jpeg"
 
   },
   {
-    "id":30,
+    "id": 30,
     "category": "Kiremit",
-    "title": "Osmanlı Kiremit",
-    "description": "Bu ürün şık ve kullanışlıdır.",
-    "image": "/assets/product/osmanlı.jpg"
-
+    "title": "Kiremit",
+    
+    "image": "/assets/product/marsilya.jpg"
 
   },
   {
     "id": 31,
     "category": "Kiremit",
-    "title": "Gürallar Kiremit",
-    "description": "Bu ürün şık ve kullanışlıdır.",
-    "image": "/assets/product/marsilya-kiremit.jpg"
+    "title": "Beton Kiremit",
+    
+    "image": "/assets/product/beton-kiremit.jpg"
 
   },
   {
-    "id": 32,
+    "id":32,
     "category": "Kiremit",
-    "title": "Gürallar Mahya",
-    "description": "Bu ürün şık ve kullanışlıdır.",
-    "image": "/assets/product/gurallar-mahya.png"
+    "title": "Osmanlı Kiremit",
+    
+    "image": "/assets/product/osmanlı.jpg"
+
 
   },
+
   {
     "id": 33,
     "category": "Kiremit",
-    "title": "İlk Mahya",
-    "description": "Bu ürün şık ve kullanışlıdır.",
-    "image": "/assets/product/ilk-mahya.webp"
+    "title": "Mahya",
+    
+    "image": "/assets/product/gurallar-mahya.png"
 
   },
   {
     "id": 34,
     "category": "Kiremit",
-    "title": "Üç Yol Mahya",
-    "description": "Bu ürün şık ve kullanışlıdır.",
-    "image": "/assets/product/üçyol.jpg"
+    "title": "İlk Mahya",
+    
+    "image": "/assets/product/ilk-mahya.webp"
 
   },
   {
     "id": 35,
     "category": "Kiremit",
+    "title": "Üç Yol Mahya",
+    
+    "image": "/assets/product/üçyol.jpg"
+
+  },
+  {
+    "id": 36,
+    "category": "Kiremit",
     "title": "Dört Yol Mahya",
-    "description": "Bu ürün şık ve kullanışlıdır.",
+    
     "image": "/assets/product/dörtyol.jpg"
 
   },
   
   {
-    "id": 36,
-    "category": "Yutong",
-    "title": "Yutong",
-    "size":"boyut: 5",
-    "description": "Bu ürün modern tasarıma sahip ve hafiftir.",
-    "image": "/assets/product/yutong.png"
-  },
-  {
     "id": 37,
     "category": "Yutong",
-    "title": "Yutong",
-    "size":"boyut: 8,5",
-    "description": "Bu ürün modern tasarıma sahip ve hafiftir.",
-    "image": "/assets/product/20-yutong.png"
-
+    "title": "5 Yutong",
+    
+    "image": "/assets/product/yutong.png"
   },
   {
     "id": 38,
     "category": "Yutong",
-    "title": "Yutong",
-    "size":"boyut: 13,5",
-    "description": "Bu ürün modern tasarıma sahip ve hafiftir.",
-    "image": "/assets/product/20-yutong.jpg"
+    "title": "8,5 Yutong",
+    
+    "image": "/assets/product/20-yutong.png"
+
   },
   {
     "id": 39,
     "category": "Yutong",
-    "title": "Yutong",
-    "size":"boyut: 15",
-    "description": "Bu ürün modern tasarıma sahip ve hafiftir.",
-    "image": "/assets/product/20yutong.jpg"
-
+    "title": "10 Yutong",
+    
+    "image": "/assets/product/20-yutong.jpg"
   },
   {
     "id": 40,
     "category": "Yutong",
-    "title": "Yutong",
-    "size":"boyut: 20",
-    "description": "Bu ürün modern tasarıma sahip ve hafiftir.",
+    "title": "13,5 Yutong",
+    
     "image": "/assets/product/20yutong.jpg"
+
   },
   {
     "id": 41,
     "category": "Yutong",
+    "title": "15 Yutong",
+    
+    "image": "/assets/product/20yutong.jpg"
+  },
+  {
+    "id": 42,
+    "category": "Yutong",
+    "title": "20 Yutong",
+    
+    "image": "/assets/product/20yutong.jpg"
+  },
+  {
+    "id": 43,
+    "category": "Yutong",
     "title": "Lento",
-    "description": "Bu ürün modern tasarıma sahip ve hafiftir.",
+    
     "image": "/assets/product/lento.jpg"
   },
   
   {
-    "id": 42,
+    "id": 44,
     "category": "Bims",
-    "title": "Bims",
-    "size":"boyut: 10",
-    "description": "Bu ürün geniş depolama alanına sahiptir.",
+    "title": "10'luk Bims",
+    
     "image": "/assets/product/10bims.jpg"
   },
   {
-    "id": 43,
+    "id": 45,
     "category": "Bims",
-    "title": "Bims",
-    "size":"boyut: 15",
-    "description": "Bu ürün geniş depolama alanına sahiptir.",
+    "title": "15'lik Bims",
+    
     "image": "/assets/product/15bims.jpg"
   },
   {
-    "id": 44,
+    "id": 46,
     "category": "Bims",
-    "title": "Bims",
-    "size":"boyut: 20",
-    "description": "Bu ürün geniş depolama alanına sahiptir.",
+    "title": "20'lik Bims",
+    
     "image": "/assets/product/20bims.jpg"
 
 
   },
 
   {
-    "id": 45,
-    "category": "Isı Yazlıtım ve Çatı Malzemeleri",
+    "id": 47,
+    "category": "Isı Yalıtım ve Çatı Malzemeleri",
     "title": "Taş Yünü",
-    "description": "Bu ürün geniş depolama alanına sahiptir.",
+    
     "image": "/assets/product/taş-yünü.jpg"
 
   },
   {
-    "id": 46,
-    "category": "Isı Yazlıtım ve Çatı Malzemeleri",
+    "id": 48,
+    "category": "Isı Yalıtım ve Çatı Malzemeleri",
     "title": "Polyester",
-    "description": "Bu ürün geniş depolama alanına sahiptir.",
+    
     "image": "/assets/product/polyester.jpg"
 
   },  
   {
-    "id": 47,
-    "category": "Isı Yazlıtım ve Çatı Malzemeleri",
+    "id": 49,
+    "category": "Isı Yalıtım ve Çatı Malzemeleri",
     "title": "File",
-    "description": "Bu ürün geniş depolama alanına sahiptir.",
+    
     "image": "/assets/product/file.jpg"
 
   },
   {
-    "id": 48,
-    "category": "Isı Yazlıtım ve Çatı Malzemeleri",
+    "id": 50,
+    "category": "Isı Yalıtım ve Çatı Malzemeleri",
     "title": "Köşebent",
-    "description": "Bu ürün geniş depolama alanına sahiptir.",
+    
     "image": "/assets/product/kosebent.webp"
 
   },
   {
-    "id": 49,
-    "category": "Isı Yazlıtım ve Çatı Malzemeleri",
+    "id": 51,
+    "category": "Isı Yalıtım ve Çatı Malzemeleri",
     "title": "Dübel",
-    "description": "Bu ürün geniş depolama alanına sahiptir.",
+    
     "image": "/assets/product/dubel.jpg"
 
   },
 
 
   {
-    "id": 50,
-    "category": "Isı Yazlıtım ve Çatı Malzemeleri",
-    "title": "Kereste",
-    "description": "Bu ürün geniş depolama alanına sahiptir.",
-    "image": "/assets/product/kereste.jpg"
-
-  },
-  {
-    "id": 51,
-    "category": "Isı Yazlıtım ve Çatı Malzemeleri",
-    "title": "Tahta",
-    "description": "Bu ürün geniş depolama alanına sahiptir.",
-    "image": "/assets/product/tahta.webp"
-
-  },
-  {
     "id": 52,
     "category": "Isı Yazlıtım ve Çatı Malzemeleri",
-    "title": "Çıta",
-    "description": "Bu ürün geniş depolama alanına sahiptir.",
-    "image": "/assets/product/çıta.jpg"
+    "title": "Kereste",
+    
+    "image": "/assets/product/kereste.jpg"
 
   },
   {
     "id": 53,
     "category": "Isı Yazlıtım ve Çatı Malzemeleri",
-    "title": "Şıngıl",
-    "description": "Bu ürün geniş depolama alanına sahiptir.",
-    "image": "/assets/product/şıngıl.jpg"
+    "title": "Tahta",
+    
+    "image": "/assets/product/tahta.webp"
 
   },
   {
     "id": 54,
     "category": "Isı Yazlıtım ve Çatı Malzemeleri",
+    "title": "Çıta",
+    
+    "image": "/assets/product/çıta.jpg"
+
+  },
+  {
+    "id": 55,
+    "category": "Isı Yazlıtım ve Çatı Malzemeleri",
+    "title": "Şıngıl",
+    
+    "image": "/assets/product/şıngıl.jpg"
+
+  },
+  {
+    "id": 56,
+    "category": "Isı Yazlıtım ve Çatı Malzemeleri",
+    "title": "Şıngıl Mhyası",
+    
+    "image": "/assets/product/şıngıl.jpg"
+
+  },
+  {
+    "id": 57,
+    "category": "Isı Yazlıtım ve Çatı Malzemeleri",
     "title": "Membran",
-    "description": "Bu ürün geniş depolama alanına sahiptir.",
+    
     "image": "/assets/product/membran.jpg"
 
   },
@@ -438,30 +442,36 @@
 
 
   {
-    "id": 55,
+    "id": 58,
     "category": "Demir ve Hazır Beton",
     "title": "Çesan Demir",
-    "description": "Bu ürün geniş depolama alanına sahiptir.",
+    
     "image": "/assets/product/çesan-demir.jpg"
 
   },
   {
-    "id": 56,
+    "id": 59,
     "category": "Demir ve Hazır Beton",
     "title": "Demir",
-    "description": "Bu ürün geniş depolama alanına sahiptir.",
+    
     "image": "/assets/product/demir.jpg"
 
   },
   {
-    "id": 57,
+    "id": 60,
     "category": "Demir ve Hazır Beton",
     "title": "Hazır Beton",
-    "description": "Bu ürün geniş depolama alanına sahiptir.",
+    
     "image": "/assets/product/hazır-beton.jpg"
 
-  }
+  },
+  {
+    "id": 61,
+    "category": "Nalburiye",
+    "description": "Nalburiye ürünlerindeki ihtiyaçlarınız için bize ulaşabilirsiniz.",    
+    "image": "/assets/product/nalbur.jpg"
 
+  }
 
 
 

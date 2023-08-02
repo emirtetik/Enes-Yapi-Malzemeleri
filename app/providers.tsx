@@ -6,6 +6,7 @@ interface ProviderProps {
     }
 
 const Providers = ({ children }: ProviderProps) => {
+    
     return <ThemeProvider attribute='class'>{children}</ThemeProvider>
 }
 
