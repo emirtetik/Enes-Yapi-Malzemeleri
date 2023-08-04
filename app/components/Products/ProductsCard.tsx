@@ -68,7 +68,7 @@ const ProductsCard = () => {
                 width={200}
                 height={200}
                 objectFit="cover"
-                className="object-cover object-center w-full lg:h-48 md:h-36 hover:opacity-70"
+                className="w-full  lg:h-48 md:h-36 hover:opacity-70"
                 src={product.image}
                 alt={product.category}
               />
